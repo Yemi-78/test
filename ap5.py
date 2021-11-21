@@ -8,5 +8,9 @@ class Employee:
     def fullname(self):
         return '{} {}'.format(self.first, self.last)
 
+    def raise_pay(self):
+        pass
+
+    
 emp1 = Employee("Yemi", "Ala", 5000)
 print(emp1.fullname())
