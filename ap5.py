@@ -1,4 +1,6 @@
 class Employee:
+
+
     def __init__(self, first, last, pay):
         self.first = first
         self.last = last
@@ -11,6 +13,6 @@ class Employee:
     def raise_pay(self):
         pass
 
-    
-emp1 = Employee("Yemi", "Ala", 5000)
+
+emp1 = Employee("Yemi", "Alao", 5000)
 print(emp1.fullname())
